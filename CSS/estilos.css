@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+}
+
+body{
+  margin: 0;
+  background-color: aquamarine;
+}
+ .dieseño{
+  display:block;
+  margin:0 auto;
+  padding:20px;
+  background-color:#2980b9;
+  width:400px;
+  height:550px;
+  border-radius: 25px;
+ 
+}
+.dieseño td button{
+  display:block;
+  width:70px;
+  height: 70px;
+  font-size: 25px;  
+  margin: 5px;
+  padding: 0;
+  border-radius: 32px;
+  font-size: 2em;
+  border: none;
+  background-color: rgb(52, 52, 245) ; 
+}
+#display{
+  font-size: 40px;
+  width:300px;
+  height: 100px;
+  line-height: 100px;
+  background-color:#fff;
+  grid-column: 1 / -1;
+  padding: 16px;
+  display: flex;
+  margin: 10px 10px 20px;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #363636;
+  border-radius: 32px;
+  text-align: right;
+  justify-content: space-between;
+  word-break: break-all;
+  box-shadow: 0px 0px 0px 10px #00000033;
+}
